@@ -7,7 +7,6 @@ http.createServer(function(req,res){
 	}else{
 		res.end();
 	}
-
 	res.end();
 }).listen(1337,'127.0.0.1');
 function doGet(req,res){
