@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T09:14:48.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="pco2wsaDQ7gKsljVzUhF" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T09:19:36.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="CxNhGCz4_xgCZlD8lD4a" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ZbJfF4gaKl_UOTomJ7E9">
     <mxGraphModel dx="985" dy="-536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,11 +139,11 @@
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880.0000000000002" y="1800" as="sourcePoint" />
-            <mxPoint x="880.0000000000002" y="1830" as="targetPoint" />
+            <mxPoint x="873.0000000000002" y="1800" as="sourcePoint" />
+            <mxPoint x="873.0000000000002" y="1830" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="1800" />
-              <mxPoint x="920" y="1830" />
+              <mxPoint x="913" y="1800" />
+              <mxPoint x="913" y="1830" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -354,9 +354,6 @@
         <mxCell id="17U3z1GjU1XygYN8xxl8-76" value="返回replay" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="687.5" y="2250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="17U3z1GjU1XygYN8xxl8-77" value="返回 DHCP Ipv6 Package" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="2480" width="210" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-80" value="封装报文" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="697.5" y="2110" width="80" height="30" as="geometry" />
         </mxCell>
@@ -374,13 +371,13 @@
           <mxGeometry x="910" y="2240" width="147.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-84" value="Advertise报文里面携带了服务器的DUID、客户端的DUID、服务器的优先级、分配给客户端的IPv6地址及租期、网络配置参数列表等信息。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="882.5" y="2070" width="216.25" height="30" as="geometry" />
+          <mxGeometry x="1050" y="2060" width="216.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-86" value="返回DHCP IPV6 Package" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="2080" width="147.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-87" value="包含客户端选择的DHCPv6服务器的DUID、&lt;br&gt;客户端的DUID、客户端IPv6地址。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="837.5" y="2170" width="260" height="40" as="geometry" />
+          <mxGeometry x="1070" y="2200" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-89" value="DHCP Ipv6&lt;br&gt;允许重用使用过的地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="2340" width="100" height="60" as="geometry" />
@@ -488,7 +485,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-112" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="843.75" y="2560" width="20" height="120" as="geometry" />
+          <mxGeometry x="846.75" y="2560" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-113" value="根据msg-type类型，lease++" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="882.5" y="2595" width="147.5" height="30" as="geometry" />
@@ -612,6 +609,25 @@
         </mxCell>
         <mxCell id="17U3z1GjU1XygYN8xxl8-156" value="检查地址合法性，释放该地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="897.5" y="2890" width="147.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17U3z1GjU1XygYN8xxl8-157" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="2110" as="sourcePoint" />
+            <mxPoint x="761.7" y="2100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="2140" />
+              <mxPoint x="800" y="2140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17U3z1GjU1XygYN8xxl8-160" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1098.3" y="2220" as="sourcePoint" />
+            <mxPoint x="740" y="2210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="778.3" y="2250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
