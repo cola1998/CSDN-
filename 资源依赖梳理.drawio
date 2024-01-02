@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T10:03:37.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="T7x3ex_IMTD8t_-eopPW" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T06:34:32.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="nQUXlt9vqm3YSlDMCbtp" version="22.1.16" type="github">
   <diagram name="第 1 页" id="Pc2Y3xLQnUcVP0rlBtkb">
-    <mxGraphModel dx="1899" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1812" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-22" value="port" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="161" y="600" width="160" height="150" as="geometry" />
+          <mxGeometry x="161" y="600" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-23" value="+ port_id&lt;br&gt;sgid,qos_id,subnet_id&lt;br&gt;vport_name&amp;nbsp; -&amp;gt; 调用ovs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry y="70" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-25" value="与qos的依赖：&lt;br&gt;与security group的依赖处理：通过调用sg提供的接口" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
-          <mxGeometry y="78" width="160" height="72" as="geometry" />
+          <mxGeometry y="78" width="160" height="62" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="l93nlvmvGtReNhgtbC6s-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -92,9 +92,7 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="291" y="470" as="sourcePoint" />
             <mxPoint x="391" y="420" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="300" y="770" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-37" value="route" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -157,7 +155,7 @@
             <mxPoint x="365" y="283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5CcXJNvwJ8tU5zxnkSfD-2" value="ovs那边是通过qos_quota绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5CcXJNvwJ8tU5zxnkSfD-2" value="ovs那边是通过qos_quota绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="730" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
