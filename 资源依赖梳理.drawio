@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T09:09:33.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="-7jsoXD80_j1dWVwedI9" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T09:51:05.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Z4HdXSjZWLMHGuL6yIch" version="22.1.16" type="github">
   <diagram name="第 1 页" id="Pc2Y3xLQnUcVP0rlBtkb">
     <mxGraphModel dx="2058" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry y="68" width="200" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-22" value="port" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="560" width="400" height="170" as="geometry" />
+          <mxGeometry x="30" y="560" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-23" value="+ port_id&lt;br&gt;+ sgid,qos_policy_id,subnet_id&lt;br&gt;vport_name&amp;nbsp; -&amp;gt; 调用ovs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
           <mxGeometry y="26" width="400" height="54" as="geometry" />
@@ -59,28 +59,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-27" value="qos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="800" width="180" height="94" as="geometry" />
+          <mxGeometry x="20" y="800" width="180" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-28" value="+ qos_id&amp;nbsp; group_name&lt;br&gt;提供绑定和解除关系方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
-          <mxGeometry y="26" width="180" height="34" as="geometry" />
+        <mxCell id="l93nlvmvGtReNhgtbC6s-28" value="+ qos_id&amp;nbsp; group_name&lt;br&gt;提供绑定和解除关系方法&lt;br&gt;一对一" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
-          <mxGeometry y="60" width="180" height="8" as="geometry" />
+          <mxGeometry y="80" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-30" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
-          <mxGeometry y="68" width="180" height="26" as="geometry" />
+          <mxGeometry y="88" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-32" value="securityGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="798" width="180" height="96" as="geometry" />
+          <mxGeometry x="260" y="798" width="180" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-33" value="+ sgid&lt;br&gt;提供绑定和解除关系方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
-          <mxGeometry y="26" width="180" height="34" as="geometry" />
+        <mxCell id="l93nlvmvGtReNhgtbC6s-33" value="+ sgid&lt;br&gt;提供绑定和解除关系方法&lt;br&gt;多对多" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
-          <mxGeometry y="60" width="180" height="10" as="geometry" />
+          <mxGeometry y="80" width="180" height="10" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-35" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
-          <mxGeometry y="70" width="180" height="26" as="geometry" />
+          <mxGeometry y="90" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-37" value="route" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-230" y="530" width="200" height="108" as="geometry" />
@@ -109,7 +109,7 @@
         <mxCell id="l93nlvmvGtReNhgtbC6s-43" value="firewall" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="391" y="350" width="160" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-44" value="+ firewall id&lt;br&gt;仅与vni相关联" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-43" vertex="1">
+        <mxCell id="l93nlvmvGtReNhgtbC6s-44" value="+ firewall id&lt;br&gt;仅与vni相关联，一对一" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-43" vertex="1">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-43" vertex="1">
@@ -127,7 +127,7 @@
         <mxCell id="l93nlvmvGtReNhgtbC6s-48" value="underlayAcl&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="346" width="190" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-49" value="+ underlayAcl id&lt;br&gt;与subnet绑定，需要增加subnet id吗？？？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-48" vertex="1">
+        <mxCell id="l93nlvmvGtReNhgtbC6s-49" value="+ underlayAcl id&lt;br&gt;仅与vni相关联，一对一" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-48" vertex="1">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-48" vertex="1">
