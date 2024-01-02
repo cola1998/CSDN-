@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:27:19.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="6JaQej2HiiysLdUT1gb-" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T08:09:01.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="V-GpvW1bP52pClvwciBn" version="22.1.16" type="github">
   <diagram name="第 1 页" id="Pc2Y3xLQnUcVP0rlBtkb">
     <mxGraphModel dx="1812" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry y="68" width="200" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-22" value="port" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="580" width="400" height="170" as="geometry" />
+          <mxGeometry y="560" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-23" value="+ port_id&lt;br&gt;+ sgid,qos_policy_id,subnet_id&lt;br&gt;vport_name&amp;nbsp; -&amp;gt; 调用ovs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
           <mxGeometry y="26" width="400" height="54" as="geometry" />
@@ -49,7 +49,7 @@
         <mxCell id="l93nlvmvGtReNhgtbC6s-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
           <mxGeometry y="80" width="400" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-25" value="与qos的依赖：port可以绑定已存在的qos策略。&lt;br&gt;与security group的依赖：通过调用sg提供的接口，port可以选择与已创建的security group进行绑定。&lt;br&gt;与subnet的依赖：创建前需要检查subnet是否存在。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
+        <mxCell id="l93nlvmvGtReNhgtbC6s-25" value="与qos的依赖：port可以绑定已存在的qos策略。&lt;br&gt;与security group的依赖：通过调用sg提供的接口，port可以选择与已创建的security group进行绑定。&lt;br&gt;与subnet的依赖：需要检查subnet是否存在。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-22" vertex="1">
           <mxGeometry y="88" width="400" height="82" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.081;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="l93nlvmvGtReNhgtbC6s-22" edge="1" target="l93nlvmvGtReNhgtbC6s-20">
@@ -59,28 +59,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-27" value="qos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="800" width="160" height="94" as="geometry" />
+          <mxGeometry x="20" y="800" width="180" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-28" value="+ qos_id&amp;nbsp; group_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
-          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        <mxCell id="l93nlvmvGtReNhgtbC6s-28" value="+ qos_id&amp;nbsp; group_name&lt;br&gt;提供绑定和解除关系方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
+          <mxGeometry y="26" width="180" height="34" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
-          <mxGeometry y="60" width="160" height="8" as="geometry" />
+          <mxGeometry y="60" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-30" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-27" vertex="1">
-          <mxGeometry y="68" width="160" height="26" as="geometry" />
+          <mxGeometry y="68" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-32" value="securityGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="334" y="804" width="160" height="86" as="geometry" />
+          <mxGeometry x="260" y="798" width="180" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="l93nlvmvGtReNhgtbC6s-33" value="+ sgid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
-          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        <mxCell id="l93nlvmvGtReNhgtbC6s-33" value="+ sgid&lt;br&gt;提供绑定和解除关系方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
+          <mxGeometry y="26" width="180" height="34" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
-          <mxGeometry y="50" width="160" height="10" as="geometry" />
+          <mxGeometry y="60" width="180" height="10" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-35" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="l93nlvmvGtReNhgtbC6s-32" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="70" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l93nlvmvGtReNhgtbC6s-37" value="route" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-230" y="530" width="200" height="128" as="geometry" />
